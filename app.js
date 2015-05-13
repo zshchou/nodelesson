@@ -3,7 +3,8 @@ var superagent = require('superagent');
 var cheerio = require('cheerio');
 var eventproxy = require('eventproxy');
 var async = require('async');
-var utility = require('utility')
+var utility = require('utility');
+//var util = require('util');
 
 var app = express();
 var url = require('url');
